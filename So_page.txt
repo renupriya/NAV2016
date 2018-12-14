@@ -858,6 +858,13 @@ OBJECT Page 42 Sales Order
                       PromotedIsBig=Yes;
                       Image=Add;
                       PromotedCategory=New }
+      { 86     ; 2   ;Action     ;
+                      Name=GitTest;
+                      Promoted=yes;
+                      OnAction=BEGIN
+                              Messsage('Success');
+                      END;
+                      }
     }
   }
   CONTROLS
