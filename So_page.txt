@@ -862,7 +862,7 @@ OBJECT Page 42 Sales Order
                       Name=GitTest;
                       Promoted=yes;
                       OnAction=BEGIN
-                              Messsage('Success');
+                                 Messsage('Success');
                       END;
                       }
     }
